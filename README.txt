@@ -1,101 +1,142 @@
-=== QuoteFrameShare – Blockquote with Border, Citation, Copy & Social Share ===
-Contributors: hellosatya
-Donate link: https://satyamvishwakarma.com/donate/
-Tags: blockquote, social share, gutenberg, copy to clipboard, quotes
-Requires at least: 5.8
-Tested up to: 6.8
-Stable tag: 3.1.8
-Requires PHP: 7.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+# QuoteFrameShare – Blockquote with Border, Citation, Copy & Social Share
 
-Easily add beautiful, customizable blockquotes with citation, copy, and social share buttons in Gutenberg.
+**Contributors:** askhellosatya  
+**Donate link:** https://satyamvishwakarma.com/donate/  
+**Tags:** blockquote, social share, Gutenberg, copy to clipboard, quotes  
+**Requires at least:** 5.8  
+**Tested up to:** 6.8  
+**Stable tag:** 3.1.8  
+**Requires PHP:** 7.0  
+**License:** GPLv2 or later  
+**License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
-== Description ==
+> Easily add beautiful, customizable blockquotes with citation, copy, and social share buttons in the Gutenberg block editor.
 
-QuoteFrameShare adds stylish, lightweight blockquotes with citations, copy, and one-click social sharing. Responsive, SEO-friendly, and easy to use.
+---
 
-**Key Features:**
+## ✨ Description
 
-* Clean, lightweight, and fast – no bloat
-* Gutenberg block: QuoteFrameShare
-* Customizable styles: background, text, border, shadow, padding, margin
-* Separate typography controls for quote and citation
-* Optional citation field
-* Copy to clipboard button with alert
-* Social share buttons (Facebook, WhatsApp, Telegram, X)
-* Enable/disable and customize each social icon (Font Awesome, brand colors)
-* Fully responsive and mobile-friendly (inline icons on mobile)
-* Unicode and multilingual text support
+QuoteFrameShare is a lightweight Gutenberg block plugin that lets you add beautiful, customizable blockquotes with optional citation, copy-to-clipboard functionality, and one-click social sharing buttons (Facebook, WhatsApp, Telegram, and X/Twitter).
 
-**How it works:**
+### ✅ Key Features
 
-1. Add a QuoteFrameShare block in the editor
-2. Enter your quote and (optionally) a citation
-3. Customize styles, typography, and icons in the sidebar
-4. Copy or share your quote with one click
+- Gutenberg block: **QuoteFrameShare**
+- Customizable styles: background, text, border, padding, margin, shadow
+- Separate typography settings for quote and citation
+- Copy to clipboard with “Copied!” alert
+- Toggleable social sharing icons:
+  - Facebook
+  - WhatsApp
+  - Telegram
+  - X (Twitter)
+- Enable/disable each icon and customize appearance (Font Awesome, brand colors)
+- Responsive and mobile-friendly
+- Unicode & multilingual text support
+- No tracking, no bloat, 100% GPL
 
-**Why use QuoteFrameShare?**
+---
 
-* Clean, modern design
-* No tracking, no upsells, no external assets
-* SEO-friendly and accessible
-* Works with any theme
-* 100% GPL and WordPress.org compliant
+## ⚙️ How It Works
 
-== Frequently Asked Questions ==
+1. In the Gutenberg editor, add the **QuoteFrameShare** block.
+2. Enter your quote and (optionally) a citation.
+3. Customize the design using the right-side block settings.
+4. Publish the post – users can copy or share quotes instantly.
 
-= Can I customize the block style? =
-Yes! You can change background, text, border, shadow, padding, margin, and typography for both quote and citation.
+---
 
-= Can I disable some social icons? =
-Yes, toggle each icon in the block settings.
+## 📚 Documentation
 
-= Does it support Hindi or Unicode text? =
-Yes, you can use any language or script in your quotes and citations.
+Full documentation and usage guides will soon be available at:  
+👉 [https://quoteframeshare.com](https://quoteframeshare.com)
 
-== Screenshots ==
+For now, here’s a quick reference:
 
-1. Example of a styled blockquote with citation and social/copy buttons.
-2. Block settings in the Gutenberg editor.
+- **To customize styles:** Use the block sidebar in the editor.
+- **To disable specific social icons:** Toggle them in block settings.
+- **To translate or use Unicode:** Enter any language text — full support for Hindi, Urdu, Bengali, etc.
 
-== Changelog ==
+---
 
-= 3.1.8 =
-* Improved Font Awesome icon loading and compatibility
-* Fixed missing icons due to font file naming issues
-* Enhanced X (Twitter) icon options and appearance
-* Minor CSS and accessibility improvements
-* Documentation and compliance updates
+## 🙋 Frequently Asked Questions
 
-= 2.1.8 =
-* Major update: Separate typography controls for quote and citation
-* Add X (Twitter) social icon
-* Customizable block shadow, padding, margin, border style
-* Improved SVG social icons, scalable with button size
-* Copy button now shows a "Copied!" alert
-* Added "View details" link in plugin row
-* Tested up to WordPress 6.8
+**Q: Can I customize the block style?**  
+Yes! You can change background, border, padding, typography, and more.
 
-= 1.0.0 =
-* Initial release.
+**Q: Can I disable certain social icons?**  
+Absolutely — each social icon can be enabled or disabled via block settings.
 
-== Upgrade Notice ==
+**Q: Does it support Hindi or multilingual quotes?**  
+Yes! Unicode support is built-in.
 
-= 2.1.8 =
-Major update: More customization, X (Twitter) icon, improved icons, and copy alert.
+---
 
-= 1.0.0 =
-Initial release.
+## 🖼️ Screenshots
 
-Ordered list:
+1. Example blockquote with citation and sharing icons
+2. Gutenberg editor settings for customization
 
-1. Add blockquotes with citation and sharing
-1. Customize styles, typography, and icons
-1. Copy or share quotes in one click
+---
 
-Unordered list:
+## 📦 Changelog
 
-* Easy to use
-* SEO-friendly
-* Fully responsive
+### 3.1.8
+- Improved Font Awesome icon loading
+- Fixed icon font file issues
+- Enhanced X (Twitter) icon appearance
+- Minor CSS and accessibility improvements
+- Documentation updates
+
+### 2.1.8
+- Added X (Twitter) icon
+- Separate typography controls for quote and citation
+- Added customizable block shadow, padding, and margin
+- Copy button now shows a "Copied!" alert
+- Improved SVG icons
+- Tested up to WP 6.8
+
+### 1.0.0
+- Initial release
+
+---
+
+## 🚀 Upgrade Notice
+
+### 3.1.8
+Improved icon handling and compatibility, accessibility fixes.
+
+### 2.1.8
+Major update with better customization, typography, icons, and UX enhancements.
+
+---
+
+## 🧩 Plugin Use Cases
+
+Ordered:
+
+1. Add attractive blockquotes with citations and sharing icons
+2. Customize styles and control layout
+3. Let users copy or share your quotes in one click
+
+Unordered:
+
+- SEO-friendly and accessible
+- Works with any theme
+- Easy to use and 100% GPL compliant
+
+---
+
+## 🙌 Contributing
+
+Want to contribute or report issues?
+
+- GitHub: [askhellosatya/quoteframeshare](https://github.com/askhellosatya/quoteframeshare)
+- Plugin author: [Satyam Vishwakarma (Satya)](https://satyamvishwakarma.com)
+
+---
+
+## 💖 Support
+
+If you like this plugin, please consider [donating here](https://satyamvishwakarma.com/donate/) or leaving a review. Your support helps improve and maintain open-source WordPress tools.
+
+---
