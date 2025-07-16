@@ -1,0 +1,109 @@
+.qfs-blockquote {
+    text-align: center;
+    font-family: inherit;
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 2.5em 2em;
+    background: #fff;
+}
+.qfs-actions a,
+.qfs-actions .qfs-share,
+.qfs-actions a:visited,
+.qfs-actions a:active,
+.qfs-actions a:focus,
+.qfs-actions a:hover,
+.qfs-share:visited,
+.qfs-share:active,
+.qfs-share:focus,
+.qfs-share:hover,
+.qfs-copy,
+.qfs-copy:visited,
+.qfs-copy:active,
+.qfs-copy:focus,
+.qfs-copy:hover {
+  text-decoration: none !important;
+  outline: none;
+}
+.qfs-blockquote cite {
+    display: block;
+    margin-top: 1.5em;
+    font-style: normal;
+}
+.qfs-actions {
+    display: flex;
+    gap: 1em;
+    margin-top: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.qfs-copy, .qfs-share {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    transition: box-shadow 0.2s, background 0.2s;
+    padding: 0;
+}
+.qfs-copy svg, .qfs-share svg { width: 70%; height: 70%; display: block; }
+.qfs-copied-alert {
+    margin-top: 1em;
+    color: #fff;
+    background: #222;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    border-radius: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    animation: fadeInOut 1.2s;
+}
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
+@media (max-width: 900px) {
+    .qfs-blockquote {
+        max-width: 95vw;
+        padding: 1.5em 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    .qfs-blockquote {
+        max-width: 100vw;
+        padding: 1em 0.5em;
+        border-radius: 1.2em;
+    }
+    .qfs-actions {
+        flex-direction: row;
+        gap: 0.5em;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .qfs-share, .qfs-copy {
+        width: 30px !important;
+        height: 30px !important;
+        margin: 0;
+        font-size: 1em;
+    }
+    .qfs-x .fa-x-twitter {
+        font-size: 1.5em; 
+        font-weight: 900;  
+      }
+      .qfs-x {
+        background: #000 !important;
+      }
+      .qfs-x .fa-x-twitter {
+        color: #fff !important;
+      }
+}
