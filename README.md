@@ -96,8 +96,29 @@ Works with any modern WordPress theme.
 
 ## Screenshots
 
-1. Styled blockquote with citation and social/copy buttons.
-2. Block settings panel in Gutenberg.
+1. A beautifully styled quote block using **QuoteFrameShare** plugin. Shows border, background, shadow, and citation styling with copy and share buttons.
+
+<p align="center">
+  <img width="1198" height="1226" alt="QuoteFrameShareDemo" src="https://github.com/user-attachments/assets/7c92d654-8608-4880-8a12-b83e9d1d57d8" />
+</p> 
+
+2. Apply box shadow and background color for an elegant and professional quote appearance.
+
+<p align="center">
+  <img width="554" height="1288" alt="Block_BoxShadow_QuoteBlock_BG" src="https://github.com/user-attachments/assets/4784588a-e874-47d7-b873-1692bd01ead7" />
+</p>
+
+3. Easily control the visibility and size of the copy/share icons from block settings.
+
+<p align="center">
+  <img width="560" height="1284" alt="BlockSettings_Icon_hide size" src="https://github.com/user-attachments/assets/6ddb3f43-7126-483b-a38d-f5b86079e398" />
+</p>
+
+4. Customize the border, spacing, and padding of your quote block using Gutenberg controls.
+
+<p align="center">
+  <img width="550" height="1280" alt="BlockStyle_Border Spacing" src="https://github.com/user-attachments/assets/41c2edf5-90be-4ff4-8e41-3f27a9cf36cf" />
+</p>
 
 ---
 
