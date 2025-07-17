@@ -144,7 +144,7 @@ Works with any modern WordPress theme.
 ## Contributors
 
 - [Satyam Vishwakarma](https://github.com/askhellosatya)
-- [Harish Chouhan] (https://github.com/hchouhan)
+- [Harish Chouhan](https://github.com/hchouhan)
 
 ---
 
