@@ -65,7 +65,8 @@
         },
         edit: function(props) {
             var attrs = props.attributes;
-            var [copied, setCopied] = useState(false);
+            var _useState = useState(false), copied = _useState[0], setCopied = _useState[1];
+>>>>>>> cb4c2d2 (Initial commit: fixed icon issues, improved sidebar UI, cleaned up structure, updated version to 3.1.8.11)
 
             function showCopied() {
                 setCopied(true);
@@ -196,7 +197,7 @@
                                         ],
                                         onChange: function(val) { props.setAttributes({ quoteFontWeight: val }); }
                                     }),
-                                    el('p', {}, 'Quote Color'),
+                                    el('p', {}, 'Quote Text Color'),
                                     el(ColorPalette, {
                                         value: attrs.quoteColor,
                                         onChange: function(color) { props.setAttributes({ quoteColor: color }); }
@@ -230,7 +231,7 @@
                                         ],
                                         onChange: function(val) { props.setAttributes({ citationFontWeight: val }); }
                                     }),
-                                    el('p', {}, 'Citation Color'),
+                                    el('p', {}, 'Citation Text Color'),
                                     el(ColorPalette, {
                                         value: attrs.citationColor,
                                         onChange: function(color) { props.setAttributes({ citationColor: color }); }
@@ -300,11 +301,6 @@
                                         value: attrs.bgColor,
                                         onChange: function(color) { props.setAttributes({ bgColor: color }); }
                                     }),
-                                    el('p', {}, 'Block Text Color'),
-                                    el(ColorPalette, {
-                                        value: attrs.textColor,
-                                        onChange: function(color) { props.setAttributes({ textColor: color }); }
-                                    })
                                 )
                             );
                         }

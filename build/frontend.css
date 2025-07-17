@@ -1,4 +1,8 @@
 /* QuoteFrameShare Frontend Styles */
+<<<<<<< HEAD
+=======
+
+>>>>>>> cb4c2d2 (Initial commit: fixed icon issues, improved sidebar UI, cleaned up structure, updated version to 3.1.8.11)
 .qfs-blockquote {
     text-align: center;
     font-family: inherit;
@@ -123,4 +127,8 @@
     .qfs-share i, .qfs-copy i {
         font-size: 1.6em;
     }
+<<<<<<< HEAD
 } 
+=======
+} 
+>>>>>>> cb4c2d2 (Initial commit: fixed icon issues, improved sidebar UI, cleaned up structure, updated version to 3.1.8.11)
