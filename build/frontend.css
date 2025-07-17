@@ -1,0 +1,126 @@
+/* QuoteFrameShare Frontend Styles */
+.qfs-blockquote {
+    text-align: center;
+    font-family: inherit;
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 2.5em 2em;
+    background: #fff;
+}
+
+.qfs-blockquote cite {
+    display: block;
+    margin-top: 1.5em;
+    font-style: normal;
+}
+
+.qfs-actions {
+    display: flex;
+    gap: 1em;
+    margin-top: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.qfs-share, .qfs-copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    margin: 0 4px;
+    background: #222;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+    border: none;
+    padding: 0;
+    transition: box-shadow 0.15s, background 0.15s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.qfs-share i, .qfs-copy i {
+    font-size: 2.2em;
+    color: #fff;
+    line-height: 1;
+    display: block;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    text-align: center;
+}
+
+.qfs-share i.fab, .qfs-share i.fa-brands, .qfs-share i.fa-facebook, .qfs-share i.fa-whatsapp, .qfs-share i.fa-telegram, .qfs-share i.fa-twitter, .qfs-x i {
+    font-family: "Font Awesome 6 Brands" !important;
+    font-weight: 400 !important;
+}
+.qfs-copy i.fa, .qfs-copy i.fas, .qfs-copy i.fa-solid {
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+}
+
+.qfs-facebook { background: #1877F3 !important; }
+.qfs-whatsapp { background: #25D366 !important; }
+.qfs-telegram { background: #0088cc !important; }
+.qfs-x { background: #000 !important; }
+
+.qfs-facebook i, .qfs-whatsapp i, .qfs-telegram i, .qfs-x i {
+    color: #fff !important;
+}
+
+.qfs-copied-alert {
+    margin-top: 1em;
+    color: #fff;
+    background: #222;
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    border-radius: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    animation: fadeInOut 1.2s;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@media (max-width: 900px) {
+    .qfs-blockquote {
+        max-width: 95vw;
+        padding: 1.5em 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    .qfs-blockquote {
+        max-width: 100vw;
+        padding: 1em 0.5em;
+        border-radius: 1.2em;
+    }
+    .qfs-actions {
+        flex-direction: row;
+        gap: 0.5em;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .qfs-share, .qfs-copy {
+        width: 40px;
+        height: 40px;
+        border-radius: 6px;
+    }
+    .qfs-share i, .qfs-copy i {
+        font-size: 1.6em;
+    }
+} 
