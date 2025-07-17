@@ -2,7 +2,7 @@
 /**
  * Plugin Name: QuoteFrameShare – Beautiful Blockquotes with Citation, Copy & Social Share
  * Description: Easily add bordered blockquotes with citations. Copy or share quotes on social media in one click. Lightweight, SEO-friendly Gutenberg plugin for beginners.
- * Version: 3.1.8
+ * Version: 3.1.8.11
  * Author: Satyam Vishwakarma (Satya)
  * Author URI: https://profiles.wordpress.org/hellosatya/
  * Plugin URI: https://wordpress.org/plugins/quoteframeshare-blockquote-share-copy/
