@@ -66,8 +66,6 @@
         edit: function(props) {
             var attrs = props.attributes;
             var _useState = useState(false), copied = _useState[0], setCopied = _useState[1];
->>>>>>> cb4c2d2 (Initial commit: fixed icon issues, improved sidebar UI, cleaned up structure, updated version to 3.1.8.11)
-
             function showCopied() {
                 setCopied(true);
                 setTimeout(function() { setCopied(false); }, 1200);
