@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: QuoteFrameShare – Blockquote with Border, Citation, Copy & Social Share
+ * Plugin Name: QuoteFrameShare – Beautiful Blockquotes with Citation, Copy & Social Share
  * Description: Easily add bordered blockquotes with citations. Copy or share quotes on social media in one click. Lightweight, SEO-friendly Gutenberg plugin for beginners.
  * Version: 3.1.8
  * Author: Satyam Vishwakarma (Satya)
