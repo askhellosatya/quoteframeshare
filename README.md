@@ -1,10 +1,10 @@
 # QuoteFrameShare – Beautiful Blockquotes with Citation, Copy & Social Share
 
-**Contributors:** askhellosatya, hchouhan   
+**Contributors:** @askhellosatya, @hchouhan   
 **Tags:** blockquote, social share, gutenberg, copy to clipboard, quotes  
 **Requires at least:** 5.8  
 **Tested up to:** 6.8  
-**Stable tag:** 3.1.8  
+**Stable tag:** 3.1.8.11  
 **Requires PHP:** 7.0  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
@@ -103,9 +103,9 @@ Works with any modern WordPress theme.
 
 ## Changelog
 
-### 3.1.8
+### 3.1.8.11
 - Improved Font Awesome icon compatibility
-- Fixed missing icons due to font file naming
+- Fixed missing icons
 - Enhanced X (Twitter) icon options
 - Minor CSS & accessibility improvements
 - Documentation updates
@@ -126,6 +126,7 @@ Works with any modern WordPress theme.
 
 ## Upgrade Notice
 
+- **3.1.8.11:** Font Awesome icons fixed, local webfonts for compliance, improved reliability.
 - **2.1.8:** More customization, X (Twitter) icon, improved icons, copy alert.
 - **1.0.0:** Initial release.
 
