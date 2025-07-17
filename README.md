@@ -143,7 +143,8 @@ Works with any modern WordPress theme.
 
 ## Contributors
 
-- [satyamvishwakarma](https://github.com/askhellosatya)
+- [Satyam Vishwakarma](https://github.com/askhellosatya)
+- [Harish Chouhan] (https://github.com/hchouhan)
 
 ---
 
