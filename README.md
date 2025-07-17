@@ -1,7 +1,6 @@
 # QuoteFrameShare – Beautiful Blockquotes with Citation, Copy & Social Share
 
-**Contributors:** askhellosatya, hellosatya  
-**Donate link:** [Support development](https://satyamvishwakarma.com/donate/)  
+**Contributors:** askhellosatya, hchouhan   
 **Tags:** blockquote, social share, gutenberg, copy to clipboard, quotes  
 **Requires at least:** 5.8  
 **Tested up to:** 6.8  
@@ -141,23 +140,21 @@ Works with any modern WordPress theme.
 
 ---
 
-## Contributors
+## Contributors (GitHub)
 
 - [Satyam Vishwakarma](https://github.com/askhellosatya)
 - [Harish Chouhan](https://github.com/hchouhan)
+
+## Contributors (WordPress.org)
+
+- [Satyam Vishwakarma](https://profiles.wordpress.org/hellosatya/)
+- [Harish Chouhan](https://profiles.wordpress.org/hchouhan/)
 
 ---
 
 ## Support & Feedback
 
 For issues, feature requests, or contributions, open an issue or pull request on GitHub.
-
----
-
-## Donate
-
-Like this plugin? Support future development:  
-[https://satyamvishwakarma.com/donate/](https://satyamvishwakarma.com/donate/)
 
 ---
 
