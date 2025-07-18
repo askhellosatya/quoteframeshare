@@ -119,8 +119,6 @@ Works with any modern WordPress theme.
 <p align="center">
   <img width="550" height="1280" alt="BlockStyle_Border Spacing" src="https://github.com/user-attachments/assets/41c2edf5-90be-4ff4-8e41-3f27a9cf36cf" />
 </p>
->>>>>>> cb4c2d2 (Initial commit: fixed icon issues, improved sidebar UI, cleaned up structure, updated version to 3.1.8.11)
-
 ---
 
 ## Changelog
@@ -185,4 +183,3 @@ For issues, feature requests, or contributions, open an issue or pull request on
 
 GPLv2 or later 
 [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
->>>>>>> cb4c2d2 (Initial commit: fixed icon issues, improved sidebar UI, cleaned up structure, updated version to 3.1.8.11)
