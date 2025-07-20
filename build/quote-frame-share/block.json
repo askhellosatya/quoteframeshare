@@ -1,0 +1,145 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "satya/quoteframeshare",
+  "version": "1.0.0",
+  "title": "Quote Frame Share",
+  "category": "widgets",
+  "icon": "format-quote",
+  "description": "Beautiful Blockquotes with Citation, Copy & Social Share.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "interactivity": true
+  },
+  "attributes": {
+    "quote": {
+      "type": "string",
+      "default": ""
+    },
+    "citation": {
+      "type": "string",
+      "default": ""
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#e0e0e0"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#222"
+    },
+    "borderColor": {
+      "type": "string",
+      "default": "#e0e0e0"
+    },
+    "borderWidth": {
+      "type": "number",
+      "default": 0
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 32
+    },
+    "borderStyle": {
+      "type": "string",
+      "default": "solid"
+    },
+    "showFacebook": {
+      "type": "boolean",
+      "default": true
+    },
+    "showWhatsapp": {
+      "type": "boolean",
+      "default": true
+    },
+    "showTelegram": {
+      "type": "boolean",
+      "default": true
+    },
+    "showX": {
+      "type": "boolean",
+      "default": true
+    },
+    "showCopy": {
+      "type": "boolean",
+      "default": true
+    },
+    "btnSize": {
+      "type": "number",
+      "default": 64
+    },
+    "quoteFontSize": {
+      "type": "number",
+      "default": 24
+    },
+    "quoteFontFamily": {
+      "type": "string",
+      "default": "inherit"
+    },
+    "quoteFontWeight": {
+      "type": "string",
+      "default": "normal"
+    },
+    "quoteColor": {
+      "type": "string",
+      "default": "#222"
+    },
+    "citationFontSize": {
+      "type": "number",
+      "default": 18
+    },
+    "citationFontFamily": {
+      "type": "string",
+      "default": "inherit"
+    },
+    "citationFontWeight": {
+      "type": "string",
+      "default": "normal"
+    },
+    "citationColor": {
+      "type": "string",
+      "default": "#555"
+    },
+    "padding": {
+      "type": "number",
+      "default": 32
+    },
+    "margin": {
+      "type": "number",
+      "default": 24
+    },
+    "shadow": {
+      "type": "boolean",
+      "default": true
+    },
+    "facebookIcon": {
+      "type": "string",
+      "default": "fa-facebook-f"
+    },
+    "whatsappIcon": {
+      "type": "string",
+      "default": "fa-whatsapp"
+    },
+    "telegramIcon": {
+      "type": "string",
+      "default": "fa-telegram"
+    },
+    "xIcon": {
+      "type": "string",
+      "default": "fa-x-twitter"
+    },
+    "copyIcon": {
+      "type": "string",
+      "default": "fa-copy"
+    },
+    "maxWidth": {
+      "type": "number",
+      "default": 500
+    }
+  },
+  "textdomain": "quote-frame-share",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
