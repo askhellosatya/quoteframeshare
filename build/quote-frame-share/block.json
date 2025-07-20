@@ -1,12 +1,12 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "satya/quoteframeshare",
-  "version": "1.0.0",
-  "title": "Quote Frame Share",
-  "category": "widgets",
-  "icon": "format-quote",
-  "description": "Beautiful Blockquotes with Citation, Copy & Social Share.",
+"name": "quoteframeshare",
+	"version": "3.2.0",
+	"title": "Quote Frame Share",
+	"category": "widgets",
+	"icon": "format-quote",
+	"description": "Beautiful Blockquotes with Citation, Copy & Social Share.",
   "example": {},
   "supports": {
     "html": false,
