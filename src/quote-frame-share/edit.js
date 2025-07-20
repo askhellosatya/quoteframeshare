@@ -62,7 +62,7 @@ export default function Edit( { attributes, setAttributes } ) {
 	}
 
 	return (
-		<div { ...blockProps } className="qfs-blockquote">
+		<div { ...blockProps }>
 			<InspectorControls>
 				<TabPanel
 					className="qfs-tabs"

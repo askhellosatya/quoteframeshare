@@ -72,7 +72,7 @@ function quoteframeshare_register_block() {
     //     'script'        => 'quoteframeshare-frontend',
     // ) );
 }
-add_action( 'init', 'quoteframeshare_register_block' );
+// add_action( 'init', 'quoteframeshare_register_block' );
 
 /**
  * Enqueue Font Awesome for both frontend and editor.
