@@ -15,6 +15,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+if ( ! defined( 'QUOTEFRAMESHARE_VERSION' ) ) {
+	/**
+	 * Define the plugin version.
+	 */
+	define( 'QUOTEFRAMESHARE_VERSION', '3.1.8.11' );
+}
+
+
+
 /**
  * Enqueue Font Awesome for both frontend and editor.
  */
@@ -82,3 +91,20 @@ function quoteframeshare_register_block() {
 	}
 }
 add_action( 'init', 'quoteframeshare_register_block' );
+
+/**
+ * Enqueue Custom script.
+ *
+ * @return void
+ */
+function quoteframeshare_enqueue_font_awesome() {
+
+	wp_enqueue_script(
+		'quoteframeshare-frontend',
+		plugins_url( 'assets/js/frontend.js', __FILE__ ),
+		array(),
+		QUOTEFRAMESHARE_VERSION,
+		true
+	);
+}
+add_action( 'enqueue_block_assets', 'quoteframeshare_enqueue_font_awesome' );
