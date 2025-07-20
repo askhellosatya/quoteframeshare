@@ -4,8 +4,8 @@ return array(
 	'quote-frame-share' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
-		'name' => 'satya/quoteframeshare',
-		'version' => '1.0.0',
+		'name' => 'quoteframeshare',
+		'version' => '3.2.0',
 		'title' => 'Quote Frame Share',
 		'category' => 'widgets',
 		'icon' => 'format-quote',
