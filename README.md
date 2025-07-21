@@ -156,7 +156,6 @@ Works with any modern WordPress theme.
 ## Upgrade Notice
 
 - **3.2.0:** Fixes "Attempt Block Recovery" issue and improves styling, structure, and frontend script handling.
-- **3.1.8.11:** Font Awesome icons fixed, local webfonts for compliance, improved reliability.
 - **2.1.8:** More customization, X (Twitter) icon, improved icons, copy alert.
 - **1.0.0:** Initial release.
 
