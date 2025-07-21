@@ -97,7 +97,7 @@ add_action( 'init', 'quoteframeshare_register_block' );
  *
  * @return void
  */
-function quoteframeshare_enqueue_font_awesome() {
+function quoteframeshare_enqueue_script() {
 
 	wp_enqueue_script(
 		'quoteframeshare-frontend',
@@ -107,4 +107,4 @@ function quoteframeshare_enqueue_font_awesome() {
 		true
 	);
 }
-add_action( 'enqueue_block_assets', 'quoteframeshare_enqueue_font_awesome' );
+add_action( 'enqueue_block_assets', 'quoteframeshare_enqueue_script' );
