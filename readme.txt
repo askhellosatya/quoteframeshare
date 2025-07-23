@@ -61,10 +61,11 @@ Works with any modern WordPress theme.
 
 == Screenshots ==
 
-1. A beautifully styled quote block using the QuoteFrameShare plugin. Shows border, background, shadow, and citation styling with copy and share buttons.
-2. Apply box shadow and background color for an elegant and professional quote appearance.
-3. Easily control the visibility and size of the copy/share icons from block settings.
-4. Customize the border, spacing, and padding of your quote block using Gutenberg controls.
+1. A beautifully styled quote block using the QuoteFrameShare plugin. 
+2. Shows border, background, shadow, and citation styling with copy and share buttons.
+3. Apply box shadow and background color for an elegant and professional quote appearance.
+4. Easily control the visibility and size of the copy/share icons from block settings.
+5. Customize the border, spacing, and padding of your quote block using Gutenberg controls.
 
 == Changelog ==
 
