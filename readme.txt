@@ -8,11 +8,11 @@ Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Add beautiful quotes with citation, instant copy-to-clipboard, and one-click social sharing. No bloat, no tracking—just a fast, privacy-first block for any theme.
+Add quotes with citation, copy-to-clipboard, and social sharing. Lightweight, privacy-first, and works with any WordPress theme.
 
 == Description ==
 
-## QuoteFrameShare – Effortless, Engaging Blockquotes for WordPress
+## QuoteFrameShare – Create, Customize & Share Beautiful Blockquotes in WordPress
 **QuoteFrameShare** lets you add stunning blockquotes with citations, instant copy-to-clipboard, and one-click social sharing. No bloat, no tracking—just a fast, privacy-first block for any theme.
 Whether you want to highlight testimonials, share wisdom, or make your content more engaging, QuoteFrameShare gives you the tools to do it beautifully and easily.
 
