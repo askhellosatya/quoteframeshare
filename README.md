@@ -1,21 +1,23 @@
 # QuoteFrameShare – Beautiful Blockquotes with Citation, Copy & Social Share
-
-**Contributors:** @askhellosatya, @hchouhan, @bhargavbhandari90, @MakarandMane
-
+**Contributors:** @askhellosatya, @hchouhan, @bhargavbhandari90, @MakarandMane  
+**Donate link:** https:paypal.me/hellosatya  
 **Tags:** blockquote, social share, gutenberg, copy to clipboard, quotes  
 **Requires at least:** 5.8  
-**Tested up to:** 6.8  
+**Tested up to:** 6.8.2  
 **Stable tag:** 3.2.0  
 **Requires PHP:** 7.0  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
----
+Add stylish quotes with citation, copy, and social share. Lightweight, privacy-friendly block plugin that works with all WordPress themes.
 
-## Effortless, Engaging Blockquotes for WordPress
+== Description ==
 
-> **QuoteFrameShare** lets you add stunning blockquotes with citations, instant copy-to-clipboard, and one-click social sharing.  
-> No bloat, no tracking—just a fast, privacy-first block for any theme.
+## QuoteFrameShare – Create, Customize & Share Beautiful Blockquotes in WordPress
+
+**QuoteFrameShare** is a modern WordPress quote plugin and Gutenberg block that lets you add elegant blockquotes with optional citations, copy-to-clipboard, and social share buttons.
+Designed for content creators, poets, authors, and storytellers, it’s perfect for showcasing quotes, testimonials, verses, or bite-sized wisdom.
+Lightweight, privacy-first, and compatible with any theme — this block plugin delivers fast performance without bloat or tracking. Whether you're sharing words that inspire or insights that convert, QuoteFrameShare helps you do it beautifully.
 
 ---
 
