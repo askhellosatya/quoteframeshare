@@ -1,20 +1,23 @@
 === QuoteFrameShare – Beautiful Blockquotes with Citation, Copy & Social Share ===
 Contributors: hellosatya, bhargavbhandari90, hchouhan, mkrndmane
+Donate link: https://www.paypal.com/paypalme/hellosatya
 Tags: blockquote, social share, gutenberg, copy to clipboard, quotes
 Requires at least: 5.8
-Tested up to: 6.8
+Tested up to: 6.8.2
 Stable tag: 3.2.0
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Add quotes with citation, copy-to-clipboard, and social sharing. Lightweight, privacy-first, and works with any WordPress theme.
+Add stylish quotes with citation, copy, and social share. Lightweight, privacy-friendly block plugin that works with all WordPress themes.
 
 == Description ==
 
 ## QuoteFrameShare – Create, Customize & Share Beautiful Blockquotes in WordPress
-**QuoteFrameShare** lets you add stunning blockquotes with citations, instant copy-to-clipboard, and one-click social sharing. No bloat, no tracking—just a fast, privacy-first block for any theme.
-Whether you want to highlight testimonials, share wisdom, or make your content more engaging, QuoteFrameShare gives you the tools to do it beautifully and easily.
+
+**QuoteFrameShare** is a modern WordPress quote plugin and Gutenberg block that lets you add elegant blockquotes with optional citations, copy-to-clipboard, and social share buttons.
+Designed for content creators, poets, authors, and storytellers, it’s perfect for showcasing quotes, testimonials, verses, or bite-sized wisdom.
+Lightweight, privacy-first, and compatible with any theme — this block plugin delivers fast performance without bloat or tracking. Whether you're sharing words that inspire or insights that convert, QuoteFrameShare helps you do it beautifully.
 
 - **Fast & Easy:** Add stylish, responsive blockquotes in seconds.
 - **Increase Engagement:** Let visitors copy or share quotes via Facebook, WhatsApp, Telegram, and X (Twitter).
@@ -70,7 +73,7 @@ Works with any modern WordPress theme.
 == Changelog ==
 
 = 3.2.0 =
-Release date: 2025-07-20
+**Release date:** **2025-07-20**
 - Fixed "Attempt Block Recovery" issue when re-editing the same page
 - Improved frontend script recovery and block styling
 - Added `src/` folder for better file organization and future development
@@ -107,13 +110,6 @@ More customization, X (Twitter) icon, improved icons, copy alert.
 = 1.0.0 =
 Initial release.
 
-== Contributors ==
-
-- [Satyam Vishwakarma](https://profiles.wordpress.org/hellosatya/)
-- [Harish Chouhan](https://profiles.wordpress.org/hchouhan/)
-- [Bhargav Bhandari (Bunty)](https://profiles.wordpress.org/bhargavbhandari90/)
-- [Makarand Mane](https://profiles.wordpress.org/mkrndmane/)
-
 == Support & Feedback ==
 
 For issues, feature requests, or contributions, open an issue or pull request on [GitHub](https://github.com/askhellosatya/quoteframeshare).
@@ -121,4 +117,4 @@ For issues, feature requests, or contributions, open an issue or pull request on
 == License ==
 
 GPLv2 or later
-https://www.gnu.org/licenses/gpl-2.0.html 
+[https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
