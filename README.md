@@ -9,9 +9,9 @@
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
-Add stylish quotes with citation, copy, and social share. Lightweight, privacy-friendly block plugin that works with all WordPress themes.
+### Add stylish quotes with citation, copy, and social share. Lightweight, privacy-friendly block plugin that works with all WordPress themes.
 
-== Description ==
+---
 
 ## QuoteFrameShare – Create, Customize & Share Beautiful Blockquotes in WordPress
 
