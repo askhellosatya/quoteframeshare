@@ -39,21 +39,6 @@ add_action( 'wp_enqueue_scripts', 'quoteframeshare_enqueue_fontawesome' );
 add_action( 'enqueue_block_editor_assets', 'quoteframeshare_enqueue_fontawesome' );
 
 /**
- * Add 'View details' link in the plugin row on the plugins page.
- */
-add_filter(
-	'plugin_row_meta',
-	function ( $links, $file ) {
-		if ( strpos( $file, 'quoteframeshare.php' ) !== false ) {
-			$links[] = '<a href="https://wordpress.org/plugins/quoteframeshare-blockquote-share-copy/" target="_blank">View details</a>';
-		}
-		return $links;
-	},
-	10,
-	2
-);
-
-/**
  * Register the QuoteFrameShare block.
  *
  * @return void
