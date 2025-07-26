@@ -4,7 +4,7 @@
 **Tags:** blockquote, social share, gutenberg, copy to clipboard, quotes  
 **Requires at least:** 5.8  
 **Tested up to:** 6.8.2  
-**Stable tag:** 3.2.0  
+**Stable tag:** 3.2.0.1  
 **Requires PHP:** 7.0  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
@@ -127,6 +127,9 @@ Works with any modern WordPress theme.
 
 ## Changelog
 
+### 3.2.0.1
+- Minor fix: Issue [#17](https://github.com/askhellosatya/quoteframeshare/issues/17)
+
 ### 🆕 What's New (v3.2.0)
 **Released:** July 20, 2025  
 - Fixed `"Attempt Block Recovery"` issue when re-editing the same page [#3](https://github.com/askhellosatya/quoteframeshare/issues/3)
@@ -157,7 +160,7 @@ Works with any modern WordPress theme.
 ---
 
 ## Upgrade Notice
-
+- **3.2.0.1** Fixes issue [#17](https://github.com/askhellosatya/quoteframeshare/issues/17)
 - **3.2.0:** Fixes "Attempt Block Recovery" issue and improves styling, structure, and frontend script handling.
 - **2.1.8:** More customization, X (Twitter) icon, improved icons, copy alert.
 - **1.0.0:** Initial release.
