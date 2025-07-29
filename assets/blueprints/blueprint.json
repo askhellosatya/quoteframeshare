@@ -28,10 +28,6 @@
       }
     },
     {
-      "step": "defineSiteUrl",
-      "siteUrl": "https://quoteframeshare.com/"
-    },
-    {
       "step": "importWxr",
       "file": {
         "resource": "url",
