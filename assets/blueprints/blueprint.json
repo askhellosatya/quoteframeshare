@@ -1,1 +1,51 @@
-
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "/wp-admin/",
+	"preferredVersions": {
+		"php": "8.0",
+		"wp": "latest"
+	},
+	"steps": [
+    {
+			"step": "login",
+			"username": "admin",
+			"password": "admin"
+		},
+    {
+			"step": "setSiteOptions",
+			"options": {
+				"blogname": "QuoteFrameShare – Clean & Shareable Blockquotes for WordPress"
+			}
+		},
+		{
+			"step": "installPlugin",
+			"pluginZipFile": {
+				"resource": "url",
+				"url": "quoteframeshare-blockquote-share-copy"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "installTheme",
+			"themeZipFile": {
+				"resource": "url",
+				"url": "astra"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "defineSiteUrl",
+			"siteUrl": "https://quoteframeshare.com/"
+		},
+    {
+			"step": "importWxr",
+			"file": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/askhellosatya/quoteframeshare/refs/heads/main/assets/blueprints/wordpress.xml"
+      }
+	]
+}
