@@ -30,7 +30,7 @@
 		{
 			"step": "installTheme",
 			"themeZipFile": {
-				"resource": "url",
+				"resource": "wordpress.org/themes",
 				"url": "astra"
 			},
 			"options": {
