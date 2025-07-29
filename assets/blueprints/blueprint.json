@@ -20,7 +20,7 @@
 		{
 			"step": "installPlugin",
 			"pluginZipFile": {
-				"resource": "url",
+				"resource": "wordpress.org/plugins",
 				"url": "quoteframeshare-blockquote-share-copy"
 			},
 			"options": {
