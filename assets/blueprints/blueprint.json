@@ -28,16 +28,6 @@
       }
     },
     {
-      "step": "installTheme",
-      "themeData": {
-        "resource": "wordpress.org/themes",
-        "slug": "astra"
-      },
-      "options": {
-        "activate": true
-      }
-    },
-    {
       "step": "defineSiteUrl",
       "siteUrl": "https://quoteframeshare.com/"
     },
