@@ -1,16 +1,21 @@
 {
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-  "landingPage": "/wp-admin/",
+  "landingPage": "/wp-admin/post.php?post=1&action=edit",
   "preferredVersions": {
     "php": "8.0",
     "wp": "latest"
-  },
+    "login": true,	    
+    "features": {        
+    "networking": true
+   },
   "steps": [
-    {
-      "step": "login",
-      "username": "admin",
-      "password": "admin"
-    },
+    {            "step": "updateUserMeta",
+	            "meta": {
+                "admin_color": "modern",
+	                "show_welcome_panel": 0
+            },
+           "userId": 1
+        },
     {
       "step": "setSiteOptions",
       "options": {
