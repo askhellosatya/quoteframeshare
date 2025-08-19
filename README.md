@@ -175,20 +175,11 @@ Works with any modern WordPress theme.
 4. Add the QuoteFrameShare block in Gutenberg.
 
 ---
-
 ## Contributors (GitHub)
 
-- [Satyam Vishwakarma](https://github.com/askhellosatya)
-- [Harish Chouhan](https://github.com/hchouhan)
-- [Bhargav Bhandari (Bunty)](https://github.com/BhargavBhandari90)
-- [Makarand Mane](https://github.com/MakarandMane)
-
-## Contributors (WordPress.org)
-
-- [Satyam Vishwakarma](https://profiles.wordpress.org/hellosatya/)
-- [Harish Chouhan](https://profiles.wordpress.org/hchouhan/)
-- [Bhargav Bhandari (Bunty)](https://profiles.wordpress.org/bhargavbhandari90/)
-- [Makarand Mane](https://profiles.wordpress.org/mkrndmane/)
+<a href="https://github.com/askhellosatya/quoteframeshare/graphs/contributors">
+  <img height="36px" src="https://contrib.rocks/image?repo=askhellosatya/quoteframeshare"/>
+</a>
 
 ---
 
