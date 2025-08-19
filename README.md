@@ -1,5 +1,5 @@
 # QuoteFrameShare – Beautiful Blockquotes with Citation, Copy & Social Share  
-**Donate link:** https:paypal.me/hellosatya  
+**Donate link:** [Donate ->](https:paypal.me/hellosatya)  
 **Tags:** blockquote, social share, gutenberg, copy to clipboard, quotes  
 **Requires at least:** 5.8  
 **Tested up to:** 6.8.2  
