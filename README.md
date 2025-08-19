@@ -1,5 +1,5 @@
 # QuoteFrameShare – Beautiful Blockquotes with Citation, Copy & Social Share  
-**Donate link:** [Donate ->](https:paypal.me/hellosatya)  
+**Donate:** [Donate ->](https:paypal.me/hellosatya)  
 **Tags:** blockquote, social share, gutenberg, copy to clipboard, quotes  
 **Requires at least:** 5.8  
 **Tested up to:** 6.8.2  
@@ -174,7 +174,9 @@ Works with any modern WordPress theme.
 4. Add the QuoteFrameShare block in Gutenberg.
 
 ---
-## Contributors (GitHub)
+## Contributors
+> *"The heartbeat of open source: You!"* ✨
+**Thanks to all who submitted code, fixed issues, or reviewed PRs**:
 
 <a href="https://github.com/askhellosatya/quoteframeshare/graphs/contributors">
   <img height="36px" src="https://contrib.rocks/image?repo=askhellosatya/quoteframeshare"/>
