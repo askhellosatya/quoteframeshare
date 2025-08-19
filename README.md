@@ -1,5 +1,4 @@
-# QuoteFrameShare – Beautiful Blockquotes with Citation, Copy & Social Share
-**Contributors:** @askhellosatya, @hchouhan, @bhargavbhandari90, @MakarandMane  
+# QuoteFrameShare – Beautiful Blockquotes with Citation, Copy & Social Share  
 **Donate link:** https:paypal.me/hellosatya  
 **Tags:** blockquote, social share, gutenberg, copy to clipboard, quotes  
 **Requires at least:** 5.8  
