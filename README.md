@@ -3,9 +3,10 @@
 
 **Tags:** blockquote, social share, gutenberg, copy to clipboard, quotes  
 **Requires at least:** 5.8  
-**Tested up to:** 6.9.5 
+**Tested up to:** 6.9.5
+
 **Stable tag:** 3.2.0.1  
-**Requires PHP:** 7.0  
+**Requires PHP:** 8.3  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
