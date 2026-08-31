@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/paypalme/hellosatya
 Tags: blockquote, social share, gutenberg, copy to clipboard, quotes
 Requires at least: 5.8
 Tested up to: 7.1
-Stable tag: 3.2.0.1
+Stable tag: 3.2.0.2
 Requires PHP: 8.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -72,6 +72,10 @@ Works with any modern WordPress theme.
 
 == Changelog ==
 
+= 3.2.0.2 =
+- Changed the stable tag 
+- Changed the tested version for WordPress compatibility
+
 = 3.2.0.1 =  
 - Minor fix: Issue [#17](https://github.com/askhellosatya/quoteframeshare/issues/17)
 = 3.2.0 =
@@ -102,6 +106,10 @@ Works with any modern WordPress theme.
 - Initial release
 
 == Upgrade Notice ==
+
+= 3.2.0.2 =
+- Changed the stable tag 
+- Changed the tested version for WordPress compatibility
 
 = 3.2.0.1 =
 Fixes Issue [#17](https://github.com/askhellosatya/quoteframeshare/issues/17)
