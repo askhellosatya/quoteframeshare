@@ -11,11 +11,49 @@ return array(
 		'icon' => 'format-quote',
 		'description' => 'Beautiful Blockquotes with Citation, Copy & Social Share.',
 		'example' => array(
-			
+			'attributes' => array(
+				'quote' => 'Code is poetry.',
+				'citation' => 'WordPress'
+			)
 		),
 		'supports' => array(
 			'html' => false,
-			'interactivity' => true
+			'interactivity' => true,
+			'anchor' => true,
+			'color' => array(
+				'background' => true,
+				'text' => true,
+				'gradients' => true,
+				'link' => false
+			),
+			'typography' => array(
+				'fontSize' => true,
+				'lineHeight' => true,
+				'__experimentalFontFamily' => true,
+				'__experimentalFontWeight' => true,
+				'__experimentalFontStyle' => true,
+				'__experimentalLetterSpacing' => true,
+				'__experimentalDefaultControls' => array(
+					'fontSize' => true
+				)
+			),
+			'spacing' => array(
+				'padding' => true,
+				'margin' => true,
+				'__experimentalDefaultControls' => array(
+					'padding' => true
+				)
+			),
+			'__experimentalBorder' => array(
+				'color' => true,
+				'radius' => true,
+				'style' => true,
+				'width' => true,
+				'__experimentalDefaultControls' => array(
+					'radius' => true
+				)
+			),
+			'shadow' => true
 		),
 		'attributes' => array(
 			'quote' => array(
@@ -25,30 +63,6 @@ return array(
 			'citation' => array(
 				'type' => 'string',
 				'default' => ''
-			),
-			'bgColor' => array(
-				'type' => 'string',
-				'default' => '#e0e0e0'
-			),
-			'textColor' => array(
-				'type' => 'string',
-				'default' => '#222'
-			),
-			'borderColor' => array(
-				'type' => 'string',
-				'default' => '#e0e0e0'
-			),
-			'borderWidth' => array(
-				'type' => 'number',
-				'default' => 0
-			),
-			'borderRadius' => array(
-				'type' => 'number',
-				'default' => 32
-			),
-			'borderStyle' => array(
-				'type' => 'string',
-				'default' => 'solid'
 			),
 			'showFacebook' => array(
 				'type' => 'boolean',
@@ -74,22 +88,6 @@ return array(
 				'type' => 'number',
 				'default' => 64
 			),
-			'quoteFontSize' => array(
-				'type' => 'number',
-				'default' => 24
-			),
-			'quoteFontFamily' => array(
-				'type' => 'string',
-				'default' => 'inherit'
-			),
-			'quoteFontWeight' => array(
-				'type' => 'string',
-				'default' => 'normal'
-			),
-			'quoteColor' => array(
-				'type' => 'string',
-				'default' => '#222'
-			),
 			'citationFontSize' => array(
 				'type' => 'number',
 				'default' => 18
@@ -105,18 +103,6 @@ return array(
 			'citationColor' => array(
 				'type' => 'string',
 				'default' => '#555'
-			),
-			'padding' => array(
-				'type' => 'number',
-				'default' => 32
-			),
-			'margin' => array(
-				'type' => 'number',
-				'default' => 24
-			),
-			'shadow' => array(
-				'type' => 'boolean',
-				'default' => true
 			),
 			'facebookIcon' => array(
 				'type' => 'string',

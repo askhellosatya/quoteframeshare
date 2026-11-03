@@ -1,3 +1,38 @@
+// v2 markup: the <blockquote> is the block root and gets core block supports
+// (color, typography, spacing, border, shadow). These are the defaults; they
+// use low specificity so theme.json and block style controls can override them.
+:where(blockquote).wp-block-satya-quoteframeshare {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    padding: 32px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #e0e0e0;
+    color: #222;
+    font-size: 24px;
+    border: 0 solid #e0e0e0;
+    border-radius: 32px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+    quotes: none;
+
+    > p {
+        font-size: inherit;
+        font-family: inherit;
+        font-weight: inherit;
+        font-style: inherit;
+        line-height: inherit;
+        color: inherit;
+    }
+
+    &::before,
+    &::after {
+        content: none;
+    }
+}
+
 .wp-block-satya-quoteframeshare {
     .qfs-blockquote {
         text-align: center;
