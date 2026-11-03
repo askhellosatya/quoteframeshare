@@ -48,7 +48,7 @@ Lightweight, privacy-first, and compatible with any theme — this block plugin 
 == Frequently Asked Questions ==
 
 = Can I customize the block style? =
-Yes! You can change background, text, border, shadow, padding, margin, and typography for both quote and citation.
+Yes! The block uses the standard WordPress style controls in the block's Styles tab: background and text color, typography (including your theme's font sizes and fluid typography), padding, margin, border and shadow. Citation typography and the maximum width have their own panels in the same tab. Themes can also set defaults for the block in theme.json.
 
 = Can I disable certain social icons? =
 Absolutely. Toggle each icon in block settings.

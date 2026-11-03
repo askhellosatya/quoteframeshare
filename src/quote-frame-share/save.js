@@ -1,5 +1,31 @@
 import { useBlockProps, RichText } from '@wordpress/block-editor';
 
+// Kept identical to v1 so saved markup doesn't change for social buttons.
+const getSocialBg = ( platform ) => {
+	switch ( platform ) {
+		case 'facebook':
+			return '#1877F2';
+		case 'whatsapp':
+			return '#25D366';
+		case 'telegram':
+			return '#0088cc';
+		case 'x':
+			return '#000000';
+		case 'copy':
+			return '#222222';
+		default:
+			return '#ccc';
+	}
+};
+
+/**
+ * Colors, border, spacing, shadow and quote typography come from core block
+ * supports, which WordPress applies to the root <blockquote> automatically.
+ *
+ * @param {Object} props            Block props.
+ * @param {Object} props.attributes Block attributes.
+ * @return {Element} Saved markup.
+ */
 export default function save( { attributes } ) {
 	const {
 		showCopy,
@@ -13,155 +39,112 @@ export default function save( { attributes } ) {
 		showX,
 		xIcon,
 		btnSize,
-		quoteFontSize,
-		quoteFontFamily,
-		quoteFontWeight,
-		quoteColor,
 		citationFontSize,
 		citationFontFamily,
 		citationFontWeight,
 		citationColor,
-		padding,
-		margin,
 		maxWidth,
-		borderColor,
-		borderWidth,
-		borderRadius,
-		borderStyle,
-		shadow,
-		bgColor,
-		textColor,
 		quote = '',
 		citation = '',
-	} = attributes || {};
+	} = attributes;
 
-	const getSocialBg = ( platform ) => {
-		switch ( platform ) {
-			case 'facebook':
-				return '#1877F2';
-			case 'whatsapp':
-				return '#25D366';
-			case 'telegram':
-				return '#0088cc';
-			case 'x':
-				return '#000000';
-			case 'copy':
-				return '#222222';
-			default:
-				return '#ccc';
-		}
-	};
+	const blockProps = useBlockProps.save( {
+		className: 'qfs-blockquote',
+		style: { maxWidth: maxWidth ? `${ maxWidth }px` : undefined },
+	} );
 
-	const btnStyle = ( bg ) => ( {
-		background: bg,
+	const btnStyle = ( platform ) => ( {
+		background: getSocialBg( platform ),
 		width: `${ btnSize }px`,
 		height: `${ btnSize }px`,
 		textDecoration: 'none',
 	} );
 
 	return (
-		<div { ...useBlockProps.save() }>
-			<blockquote
-				className="qfs-blockquote"
+		<blockquote { ...blockProps }>
+			<RichText.Content tagName="p" value={ quote } />
+
+			<RichText.Content
+				tagName="cite"
+				value={ citation }
 				style={ {
-					background: bgColor,
-					color: textColor,
-					borderRadius: `${ borderRadius }px`,
-					padding: `${ padding }px`,
-					textAlign: 'center',
-					border: `${ borderWidth }px ${ borderStyle } ${ borderColor }`,
-					boxShadow: shadow ? '0 2px 12px rgba(0,0,0,0.10)' : 'none',
-					marginBottom: `${ margin }px`,
-					maxWidth: `${ maxWidth || 500 }px`,
+					fontSize: `${ citationFontSize }px`,
+					fontFamily:
+						citationFontFamily !== 'inherit'
+							? citationFontFamily
+							: undefined,
+					fontWeight:
+						citationFontWeight !== 'normal'
+							? citationFontWeight
+							: undefined,
+					color: citationColor,
 				} }
-			>
-				<RichText.Content
-					tagName="p"
-					value={ quote }
-					style={ {
-						fontSize: `${ quoteFontSize }px`,
-						fontFamily: quoteFontFamily,
-						fontWeight: quoteFontWeight,
-						color: quoteColor,
-					} }
-				/>
+			/>
 
-				<RichText.Content
-					tagName="cite"
-					value={ citation }
-					style={ {
-						fontSize: `${ citationFontSize }px`,
-						fontFamily: citationFontFamily,
-						fontWeight: citationFontWeight,
-						color: citationColor,
-					} }
-				/>
+			<div className="qfs-actions">
+				{ showCopy && (
+					<button
+						className="qfs-copy"
+						type="button"
+						tabIndex={ -1 }
+						style={ btnStyle( 'copy' ) }
+					>
+						<i className={ `fa ${ copyIcon }` }></i>
+					</button>
+				) }
 
-				<div className="qfs-actions">
-					{ showCopy && (
-						<button
-							className="qfs-copy"
-							type="button"
-							tabIndex={ -1 }
-							style={ btnStyle( getSocialBg( 'copy' ) ) }
-						>
-							<i className={ `fa ${ copyIcon }` }></i>
-						</button>
-					) }
+				{ showFacebook && (
+					<a
+						className="qfs-share qfs-facebook"
+						href="#"
+						target="_blank"
+						rel="noopener noreferrer"
+						tabIndex={ -1 }
+						style={ btnStyle( 'facebook' ) }
+					>
+						<i className={ `fa-brands ${ facebookIcon }` }></i>
+					</a>
+				) }
 
-					{ showFacebook && (
-						<a
-							className="qfs-share qfs-facebook"
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-							tabIndex={ -1 }
-							style={ btnStyle( getSocialBg( 'facebook' ) ) }
-						>
-							<i className={ `fa-brands ${ facebookIcon }` }></i>
-						</a>
-					) }
+				{ showWhatsapp && (
+					<a
+						className="qfs-share qfs-whatsapp"
+						href="#"
+						target="_blank"
+						rel="noopener noreferrer"
+						tabIndex={ -1 }
+						style={ btnStyle( 'whatsapp' ) }
+					>
+						<i className={ `fa-brands ${ whatsappIcon }` }></i>
+					</a>
+				) }
 
-					{ showWhatsapp && (
-						<a
-							className="qfs-share qfs-whatsapp"
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-							tabIndex={ -1 }
-							style={ btnStyle( getSocialBg( 'whatsapp' ) ) }
-						>
-							<i className={ `fa-brands ${ whatsappIcon }` }></i>
-						</a>
-					) }
+				{ showTelegram && (
+					<a
+						className="qfs-share qfs-telegram"
+						href="#"
+						target="_blank"
+						rel="noopener noreferrer"
+						tabIndex={ -1 }
+						style={ btnStyle( 'telegram' ) }
+					>
+						<i className={ `fa-brands ${ telegramIcon }` }></i>
+					</a>
+				) }
 
-					{ showTelegram && (
-						<a
-							className="qfs-share qfs-telegram"
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-							tabIndex={ -1 }
-							style={ btnStyle( getSocialBg( 'telegram' ) ) }
-						>
-							<i className={ `fa-brands ${ telegramIcon }` }></i>
-						</a>
-					) }
-
-					{ showX && (
-						<a
-							className="qfs-share qfs-x"
-							href="#"
-							target="_blank"
-							rel="noopener noreferrer"
-							tabIndex={ -1 }
-							style={ btnStyle( getSocialBg( 'x' ) ) }
-						>
-							<i className={ `fa-brands ${ xIcon }` }></i>
-						</a>
-					) }
-				</div>
-			</blockquote>
-		</div>
+				{ showX && (
+					<a
+						className="qfs-share qfs-x"
+						href="#"
+						target="_blank"
+						rel="noopener noreferrer"
+						tabIndex={ -1 }
+						style={ btnStyle( 'x' ) }
+					>
+						<i className={ `fa-brands ${ xIcon }` }></i>
+					</a>
+				) }
+			</div>
+		</blockquote>
 	);
 }
